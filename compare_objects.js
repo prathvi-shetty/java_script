@@ -22,7 +22,6 @@ function compare(obj1,obj2){
    var v1 = Object.values(obj1);
    var v2 = Object.values(obj2);
    if(k1.length == k2.length){
-       console.log("im here");
        var i = 0;
        while(i < k1.length)
        {
